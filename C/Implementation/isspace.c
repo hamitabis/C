@@ -1,5 +1,5 @@
 int isspace(int ch) {
-    int result = 0;
+    int result;
     if ((ch == '\t') || (ch == '\n')) {
         result = 1;
     } else if ((ch == '\v') || (ch == '\f')) {
